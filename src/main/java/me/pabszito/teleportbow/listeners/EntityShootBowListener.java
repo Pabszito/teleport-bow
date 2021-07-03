@@ -49,6 +49,8 @@ public class EntityShootBowListener implements Listener {
             Player player = (Player) entity;
             if(onCooldown.contains(player)) {
                 player.sendMessage(messages.getString("messages.on_cooldown"));
+                event.setCancelled(true);
+                return;
             }
 
             Arrow arrow = (Arrow) event.getProjectile();
