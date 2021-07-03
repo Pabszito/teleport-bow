@@ -1,0 +1,8 @@
+messages:
+  item:
+    display_name: "&aTeleport Bow"
+    lore:
+      - "&7Throw an arrow using this bow"
+      - "&7to teleport where the arrow"
+      - "&7lands."
+  on_cooldown: "&cYou're currently on cooldown! Please wait before doing that again."

@@ -1,0 +1,9 @@
+name: TeleportBow
+main: me.pabszito.teleportbow.TeleportBow
+version: 1.0.0
+api-version: "1.13"
+
+commands:
+  teleportbow:
+    description: Main command of the TeleportBow plugin.
+    aliases: [tpbow]

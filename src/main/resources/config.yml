@@ -1,0 +1,18 @@
+config:
+  particle_effect:
+    enabled: true # Whether the particle effect is enabled or not. This function requires 1.9+
+    type: FIREWORKS_SPARK # Particle effect type.
+    time_until_cancel: 30 # Time until particle repeating task gets cancelled
+  cooldown:
+    enabled: false # Whether the cooldown is enabled or not.
+    time: 1 # Cooldown time in seconds.
+  sound:
+    enabled: true # Whether to play a sound when teleporting or not.
+    type: ENTITY_ENDERMAN_TELEPORT # Sound to be played (if enabled).
+
+  # WARNING: Enabling this will override the item in the specified slot!
+  give_bow:
+    hotbar_slot: 4
+    disable_item_movement: true # Whether to disable item movement in inventories or not.
+    enabled_on_respawn: false # Whether to give the teleport bow to the player when he joins or not.
+    enabled_on_join: false # Whether to give the teleport bow to the player when he joins or not.
